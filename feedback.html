@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+    <!-- boostrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- css cdn -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- google fonts link -->
+    <!-- icon link -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</head>
+
+<body>
+    <!-- header start -->
+    <div class="header">
+        <div class="header_wrapper">
+            <div class="search_bar">
+                <div class="inner_search">
+                    <input type="search" class="form-control " placeholder="Search here" />
+                    <i class="fa fa-search"></i>
+                </div>
+            </div>
+            <div class="user_login">
+                <div class="notification">
+                    <div class="message_icon">
+                        <i class="fa-solid fa-comment-dots"></i>
+                    </div>
+                    <i class="far fa-bell bell_icon">
+                        <span class="noti_number">2</span>
+                        <div class="notification_item">
+                            <h5>Notifications (12)</h5>
+                            <p><b>Markksantos’s</b> Order was
+                                automatically marked as <b>Complete</b> </p>
+                            <span>2h ago</span>
+                            <p><b>Markksantos’s</b> Order was
+                                automatically marked as <b>Complete</b> </p>
+                            <span>2h ago</span>
+                            <p><b>Markksantos’s</b> Order was
+                                automatically marked as <b>Complete</b> </p>
+                            <span>2h ago</span>
+                            <p><b>Markksantos’s</b> Order was
+                                automatically marked as <b>Complete</b> </p>
+                            <span>2h ago</span>
+                        </div>
+                    </i>
+                </div>
+                <div class="user_logo">
+                    <div class="user_logo_box">
+                        <p><img src="images/user.png" alt="user"> <span class="name_user">Ronnie Woodkin</span> <i class="fa-solid fa-chevron-down"></i></p>
+                        <div class="user_logo_box_items">
+                            <li>Cameron Williamson</li>
+                            <li class="cammeron_toogle">Apperance
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </li>
+                            <li>Referral</li>
+                            <li>Billings</li>
+                            <li>Settings</li>
+                            <li>Sign out <i class="fa fa-sign-out sign_out_icon"></i> </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header end -->
+    <!------------Sidebar Start-------------->
+    <div class="sidebar">
+        <input type="checkbox" id="check" />
+        <label for="check">
+            <img src="images/dashboard.png" id="bars" alt="dash">
+            <i class="fas fa-times" id="close"></i>
+        </label>
+        <div class="sidebar">
+            <ul class="sidebar_ul sidebar_ul_dark">
+                <li>
+                    <a href="course.html"> <span class="iconify" data-icon="ic:baseline-school"></span> My Courses</a>
+                </li>
+                <li>
+                    <a href="#"> <span class="iconify" data-icon="ic:baseline-list-alt"></span> My Quize</a>
+                </li>
+                <li>
+                    <a href="index.html"><span class="iconify" data-icon="ic:round-card-membership"></span> Certifications</a>
+                </li>
+                <li>
+                    <a href="#"> <span class="iconify" data-icon="ic:sharp-phone-in-talk" data-rotate="270deg"></span> Support -Q & A</a>
+                </li>
+                <li class="active_slide">
+                    <a href="feedback.html"><span class="iconify" data-icon="ic:baseline-feedback" data-rotate="270deg"></span> Feedback</a>
+                </li>
+                <li>
+                    <a href="settings.html"><span class="iconify" data-icon="ic:sharp-settings" data-rotate="270deg"></span> Settings</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!------------Sidebar End-------------->
+    <!-- dashboard section and charts start-->
+    <div class="main-body">
+        <div class="containerr">
+            <!--=========Start Body Header Ared========-->
+            <div class="body_header">
+                <div class="certificates_area">
+                    <h1>Feedback</h1>
+                </div>
+                <div class="date_area">
+                    <p><i class="fa-solid fa-calendar"></i> Jan, 2019 - Dec, 2019</p>
+                </div>
+            </div>
+            <!--=========End Body Header Ared========-->
+            <!--=========Start Feedback Ared========-->
+            <div class="feedback_hero_area">
+                <div class="hero_img">
+                    <img src="images/Feedback_hero.png" alt="img">
+                </div>
+            </div>
+            <!--Start Feedback Form Area-->
+            <div class="main_form_area">
+                <form action="">
+                    <div class="user_details">
+                        <div class="form_group">
+                            <label for="">First Name</label>
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="form_group">
+                            <label for="">Last Name</label>
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="form_group">
+                            <label for="">Number</label>
+                            <input type="text" placeholder="Your phone">
+                        </div>
+                        <div class="form_group">
+                            <label for="">Email</label>
+                            <input type="email" placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="subject_area">
+                        <div class="form_group">
+                            <label for="">Subject(Optional)</label> <br>
+                            <input type="text" placeholder="Summary of your observation">
+                        </div>
+                    </div>
+                    <div class="message_area">
+                        <div class="form_group">
+                            <label for="">Message</label> <br>
+                            <textarea name="" id="" placeholder="Give us many details as possible"></textarea>
+                        </div>
+                    </div>
+                    <div class="screenshort">
+                        <div class="form_group">
+                            <label for=""><i class="fa-solid fa-xmark"></i>Screenshort.png</label> <br>
+                        </div>
+                    </div>
+                    <div class="upload_area">
+                        <div class="form_group">
+                            <input type="file" name="uploadfile" id="img" style="display:none;" />
+                            <label for="img"><img src="images/link-alt-regular-24.png" alt="link">Upload your attachments</label>
+                        </div>
+                    </div>
+                    <div class="submit_btn">
+                        <input type="submit" value="Send Feedback">
+                    </div>
+                </form>
+            </div>
+            <!--End Feedback Form Area-->
+            <!--=========End Feedback Ared========-->
+        </div>
+        <!-- main-body div -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
